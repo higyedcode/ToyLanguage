@@ -1,0 +1,343 @@
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+string varf
+varf=src\main\java\org\test.in
+opening the file [varf]
+int varc
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+varf=src\main\java\org\test.in
+opening the file [varf]
+int varc
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf-> 
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+varf=src\main\java\org\test.in
+opening the file [varf]
+int varc
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf-> 
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+opening the file [varf]
+int varc
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+opening the file [varf]
+int varc
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+int varc
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+
+Heap:
+
+Out:
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+int varc
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+
+Heap:
+
+Out:
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->0
+
+Heap:
+
+Out:
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+reading from the file [varf] into the variable [varc]
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->0
+
+Heap:
+
+Out:
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->15
+
+Heap:
+
+Out:
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+print(varc)
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->15
+
+Heap:
+
+Out:
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->15
+
+Heap:
+
+Out:
+15
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+reading from the file [varf] into the variable [varc]
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->15
+
+Heap:
+
+Out:
+15
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+print(varc)
+closing the file [varf]
+
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->50
+
+Heap:
+
+Out:
+15
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+print(varc)
+closing the file [varf]
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->50
+
+Heap:
+
+Out:
+15
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+closing the file [varf]
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->50
+
+Heap:
+
+Out:
+15
+50
+
+FileTable:
+src\main\java\org\test.in->java.io.BufferedReader@6027caa5
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+
+SymTable:
+varf->src\main\java\org\test.in
+varc->50
+
+Heap:
+
+Out:
+15
+50
+
+FileTable:
+
+----------------------------------------------------------------

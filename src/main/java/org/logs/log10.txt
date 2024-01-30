@@ -1,0 +1,2889 @@
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+int counter
+Ref(int) a
+counter=0
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+Ref(int) a
+counter=0
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+
+SymTable:
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+Ref(int) a
+counter=0
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+
+SymTable:
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=0
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=0
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 10 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 10 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 11 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 11 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->0
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+1->0
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 11 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(1, int)
+counter->0
+
+Heap:
+1->0
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+1->0
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 11 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(1, int)
+counter->0
+
+Heap:
+1->0
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 12 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+1->0
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 12 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 13 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 13 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->1
+
+Heap:
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+2->1
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 13 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(2, int)
+counter->1
+
+Heap:
+2->1
+
+Out:
+0
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+2->1
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 13 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(2, int)
+counter->1
+
+Heap:
+2->1
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 14 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+2->1
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 14 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 15 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 15 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->2
+
+Heap:
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+3->2
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 15 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(3, int)
+counter->2
+
+Heap:
+3->2
+
+Out:
+0
+1
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+3->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 15 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(3, int)
+counter->2
+
+Heap:
+3->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 16 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+3->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 16 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 17 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 17 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->3
+
+Heap:
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+4->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 17 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(4, int)
+counter->3
+
+Heap:
+4->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+4->3
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 17 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(4, int)
+counter->3
+
+Heap:
+4->3
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 18 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+4->3
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 18 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 19 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 19 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->4
+
+Heap:
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+5->4
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 19 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(5, int)
+counter->4
+
+Heap:
+5->4
+
+Out:
+0
+1
+2
+3
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+5->4
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 19 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(5, int)
+counter->4
+
+Heap:
+5->4
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 20 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+5->4
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 20 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 21 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 21 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->5
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+6->5
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 21 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(6, int)
+counter->5
+
+Heap:
+6->5
+
+Out:
+0
+1
+2
+3
+4
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+6->5
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 21 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(6, int)
+counter->5
+
+Heap:
+6->5
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 22 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+6->5
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 22 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 23 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 23 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->6
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+7->6
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 23 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(7, int)
+counter->6
+
+Heap:
+7->6
+
+Out:
+0
+1
+2
+3
+4
+5
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+7->6
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 23 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(7, int)
+counter->6
+
+Heap:
+7->6
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 24 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+7->6
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 24 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 25 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 25 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->7
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+8->7
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 25 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(8, int)
+counter->7
+
+Heap:
+8->7
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+8->7
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 25 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(8, int)
+counter->7
+
+Heap:
+8->7
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 26 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+8->7
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 26 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 27 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 27 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->8
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+9->8
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 27 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(9, int)
+counter->8
+
+Heap:
+9->8
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+counter=counter + 1
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+9->8
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 27 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(9, int)
+counter->8
+
+Heap:
+9->8
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 28 -----------------------------------
+ExeStack:
+fork(new(a , counter)
+print(rH(a))
+)
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+9->8
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+( while(counter < 10) fork(fork(new(a , counter)
+print(rH(a))
+))
+counter=counter + 1
+ )
+
+SymTable:
+a->(0, int)
+counter->10
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 28 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 29 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 9 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(0, int)
+counter->10
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 29 -----------------------------------
+ExeStack:
+new(a , counter)
+print(rH(a))
+
+SymTable:
+a->(0, int)
+counter->9
+
+Heap:
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 29 -----------------------------------
+ExeStack:
+print(rH(a))
+
+SymTable:
+a->(10, int)
+counter->9
+
+Heap:
+10->9
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 29 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(10, int)
+counter->9
+
+Heap:
+10->9
+
+Out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+Ref(int) v
+Ref(Ref(int)) a
+new(v , 10)
+new(a , v)
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+Ref(Ref(int)) a
+new(v , 10)
+new(a , v)
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+v->(0, int)
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+Ref(Ref(int)) a
+new(v , 10)
+new(a , v)
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+v->(0, int)
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+new(v , 10)
+new(a , v)
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(0, Ref(int))
+v->(0, int)
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+new(v , 10)
+new(a , v)
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(0, Ref(int))
+v->(0, int)
+
+Heap:
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+new(a , v)
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+new(a , v)
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+fork(new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+print(rH(v))
+print(rH(rH(a)))
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+new(v , 30)
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+
+Out:
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+print(rH(rH(a)))
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+3->30
+
+Out:
+10
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+
+Heap:
+1->10
+2->(1, int)
+3->30
+
+Out:
+10
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 0 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+
+Heap:
+1->10
+2->(1, int)
+3->30
+
+Out:
+10
+10
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+new(v , 50)
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+
+Heap:
+1->10
+2->(1, int)
+3->30
+
+Out:
+10
+10
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+print(rH(v))
+print(rH(rH(a)))
+
+
+SymTable:
+a->(2, Ref(int))
+v->(4, int)
+
+Heap:
+1->10
+2->(1, int)
+3->30
+4->50
+
+Out:
+10
+10
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+print(rH(v))
+print(rH(rH(a)))
+
+SymTable:
+a->(2, Ref(int))
+v->(4, int)
+
+Heap:
+1->10
+2->(1, int)
+4->50
+
+Out:
+10
+10
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+print(rH(rH(a)))
+
+SymTable:
+a->(2, Ref(int))
+v->(4, int)
+
+Heap:
+1->10
+2->(1, int)
+4->50
+
+Out:
+10
+10
+50
+
+FileTable:
+
+----------------------------------------------------------------
+----------------------------- Thread ID: 1 -----------------------------------
+ExeStack:
+
+SymTable:
+a->(2, Ref(int))
+v->(4, int)
+
+Heap:
+1->10
+2->(1, int)
+4->50
+
+Out:
+10
+10
+50
+10
+
+FileTable:
+
+----------------------------------------------------------------
