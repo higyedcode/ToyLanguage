@@ -5,6 +5,6 @@
 #
 The UI was developed with maven, using javafx .
 
-![alt text](<imgToyLanguage/Screenshot 2024-03-05 145809.png>)
-![alt text](<imgToyLanguage/Screenshot 2024-03-05 145834.png>)
-![alt text](<imgToyLanguage/Screenshot 2024-03-05 145908.png>)
+<img src="imgToyLanguage/Screenshot  2024-03-05 145809.png" alt="image" width="100">
+<img src="imgToyLanguage/Screenshot 2024-03-05 145834.png" alt="image" width="100">
+<img src="imgToyLanguage/Screenshot 2024-03-05 145908.png" alt="image" width="100">
